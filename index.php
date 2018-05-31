@@ -5,7 +5,7 @@
 <h1>First Devops (AWS) Class</h1>
 
 <?php
-echo "Version: v1.1";
+echo "Version: v1.2";
 ?>
 
 </body>
