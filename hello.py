@@ -1,6 +1,6 @@
 import boto3
-s3_resource = boto3.client('s3')
-response = s3_resource.list_buckets()
+ec2_client = boto3.client('ec2',region_name='us-east-1	')
+response = ec2_client.describe_instances()
 print(response)
 
 print("hello World")
