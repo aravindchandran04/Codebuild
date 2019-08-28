@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+       python: 3.7
+    commands:
+        - echo testing
+  pre_build:
+    commands:
+       - echo testing
+  build:
+    commands:
+       - python3 hello.py
+       - echo excuted sucessfull
+  post_build:
+    commands:
+       - echo completed 
