@@ -4,4 +4,4 @@ r = requests.get('https://google.com')
 p =r.status_code
 
 
-print("p")
+print(p)
